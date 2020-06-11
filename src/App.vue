@@ -162,7 +162,7 @@ export default {
         { name: "Camilo Andrés Gil Ballen", lost: false },
         { name: "Kathlen Montalvo Mendoza", lost: false },
         { name: "Fiorella Effio Saldivar", lost: false },
-        { name: "Lenin Campoverde", lost: false },
+        { name: "Erifranck nuñez", lost: false },
         { name: "Jesús cruz dominguez", lost: false },
         { name: "Jorge Ivan Morales Obando", lost: false },
         { name: "Carlos Viteri", lost: false },

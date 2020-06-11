@@ -96,7 +96,7 @@ section {
   .players {
     @apply flex flex-row flex-wrap items-center justify-around;
     span {
-      @apply w-2/5 h-20 leading-snug bg-blue-400 text-center rounded-lg p-4 inline-flex items-center justify-center my-4;
+      @apply w-2/5 h-20 leading-snug bg-blue-400 text-center rounded-lg p-4 inline-flex items-center justify-center my-4 capitalize;
 
       &.lost {
         @apply text-gray-400 bg-gray-500;
