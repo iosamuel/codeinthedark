@@ -6,17 +6,17 @@
 
 @font-face {
   font-family: ND_LOGOS_REGULAR;
-  src: url("../assets/fonts/ND_LOGOS_REGULAR.ttf");
+  src: url("/fonts/ND_LOGOS_REGULAR.ttf");
 }
 
 @font-face {
   font-family: Ubuntu;
-  src: url("../assets/fonts/Ubuntu-Regular.ttf");
+  src: url("/fonts/Ubuntu-Regular.ttf");
 }
 
 @font-face {
   font-family: Ubuntu;
-  src: url("../assets/fonts/Ubuntu-Bold.ttf");
+  src: url("/fonts/Ubuntu-Bold.ttf");
   font-weight: bold;
 }
 
@@ -29,7 +29,7 @@ body {
 
 #app {
   @apply bg-black h-full bg-no-repeat bg-cover bg-center p-4 overflow-auto;
-  background-image: url("../assets/images/wallpaper.jpg");
+  background-image: url("/images/wallpaper.jpg");
 }
 
 section {

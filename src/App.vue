@@ -1,7 +1,7 @@
 <template>
   <section class="upper">
     <h1>Code <span>in the</span> Dark</h1>
-    <img src="./assets/images/cool.png" />
+    <img src="/images/cool.png" />
   </section>
 
   <section class="content">
@@ -17,11 +17,7 @@
   </section>
 
   <section class="content">
-    <img
-      class="content__image"
-      src="./assets/images/iosamuel.png"
-      alt="IOSamuel"
-    />
+    <img class="content__image" src="/images/iosamuel.png" alt="IOSamuel" />
     <h3>Rules</h3>
     <p>
       Sera una competencia single-elimination, lo que quiere decir que ganas o
@@ -54,7 +50,7 @@
     </p>
 
     <ul>
-      <li><img src="./assets/images/platzi.jpg" alt="" /></li>
+      <li><img src="/images/platzi.jpg" alt="" /></li>
       <li><img src="" alt="" /></li>
     </ul>
   </section>
@@ -91,7 +87,7 @@
 
   <div class="iosamuel">
     <a href="https://iosamuel.dev/">
-      <img src="./assets/images/iosamuel-logo.png" alt="IOSamuel" />
+      <img src="/images/iosamuel-logo.png" alt="IOSamuel" />
     </a>
   </div>
 </template>
