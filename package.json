@@ -1,0 +1,18 @@
+{
+  "name": "codeinthedark",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vue": "^3.0.0-beta.14"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.0-beta.14",
+    "sass": "^1.26.8",
+    "tailwindcss": "^1.4.6",
+    "typescript": "^3.9.5",
+    "vite": "^0.20.0"
+  }
+}

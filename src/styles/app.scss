@@ -1,0 +1,109 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: ND_LOGOS_REGULAR;
+  src: url("../assets/fonts/ND_LOGOS_REGULAR.ttf");
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url("../assets/fonts/Ubuntu-Regular.ttf");
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url("../assets/fonts/Ubuntu-Bold.ttf");
+  font-weight: bold;
+}
+
+html,
+body {
+  @apply h-screen text-white;
+  font-family: Ubuntu;
+  font-size: 16px;
+}
+
+#app {
+  @apply bg-black h-full bg-no-repeat bg-cover bg-center p-4 overflow-auto;
+  background-image: url("../assets/images/wallpaper.jpg");
+}
+
+section {
+  @apply my-8;
+}
+
+.upper {
+  @apply text-center;
+  h1 {
+    @apply inline-block text-left text-5xl leading-tight;
+    font-family: ND_LOGOS_REGULAR;
+
+    span {
+      @apply uppercase block font-bold text-2xl;
+      font-family: Ubuntu;
+    }
+  }
+
+  img {
+    @apply w-32 mx-auto mt-8;
+  }
+
+  @media screen and (min-width: 1024px) {
+    h1 {
+      @apply text-6xl;
+
+      span {
+        @apply text-3xl;
+      }
+    }
+  }
+}
+
+.content {
+  @apply bg-black bg-opacity-75 p-6 max-w-3xl mx-auto text-lg relative;
+
+  &__image {
+    @apply absolute w-32;
+    bottom: 1rem;
+    right: 1rem;
+  }
+
+  h3 {
+    @apply text-3xl mb-2;
+    font-family: ND_LOGOS_REGULAR;
+  }
+
+  h4 {
+    @apply text-3xl;
+    font-weight: bold;
+  }
+
+  ul {
+    @apply mt-4;
+
+    img {
+      @apply w-40 rounded-full mx-auto;
+    }
+  }
+
+  .players {
+    @apply flex flex-row flex-wrap items-center justify-around;
+    span {
+      @apply w-2/5 h-20 leading-snug bg-blue-400 text-center rounded-lg p-4 inline-flex items-center justify-center my-4;
+
+      &.lost {
+        @apply text-gray-400 bg-gray-500;
+      }
+    }
+  }
+}
+
+.iosamuel {
+  @apply fixed w-12;
+  bottom: 1rem;
+  right: 1rem;
+}
