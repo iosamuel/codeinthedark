@@ -83,6 +83,21 @@
         }}
       </span>
     </div>
+
+    <p class="status">
+      El registro está
+      <span :class="{ open, closed: !open }">
+        {{ open ? "abierto" : "cerrado" }}
+      </span>
+      <template v-if="open">
+        :
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLScsWgdo1x5wPKYnUMSBokZBom4dZybDl5T8HtEv_HfANfj5SQ/viewform?usp=sf_link"
+        >
+          Click Aquí
+        </a>
+      </template>
+    </p>
   </section>
 
   <div class="iosamuel">
@@ -126,7 +141,8 @@ export default {
         { name: "Horacio Herrera García", img: "", twitter: "" },
         { name: "Jorge Betancur ", img: "", twitter: "" },
         { name: "Efrén Martinez rodriguez", img: "", twitter: "" }
-      ]
+      ],
+      open: false
     };
   }
 };

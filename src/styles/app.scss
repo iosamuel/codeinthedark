@@ -20,15 +20,14 @@
   font-weight: bold;
 }
 
-html,
-body {
-  @apply h-screen text-white;
+html {
+  @apply h-screen text-white overflow-hidden;
   font-family: Ubuntu;
   font-size: 16px;
 }
 
-#app {
-  @apply bg-black h-full bg-no-repeat bg-cover bg-center p-4 overflow-auto;
+body {
+  @apply bg-black h-full bg-no-repeat bg-cover bg-center p-4 overflow-y-auto;
   background-image: url("/images/wallpaper.jpg");
 }
 
@@ -98,6 +97,24 @@ section {
       &.lost {
         @apply text-gray-400 bg-gray-500;
       }
+    }
+  }
+
+  .status {
+    span {
+      @apply rounded-lg p-1;
+
+      &.open {
+        @apply bg-green-700;
+      }
+
+      &.closed {
+        @apply bg-red-700;
+      }
+    }
+
+    a {
+      @apply underline;
     }
   }
 }
