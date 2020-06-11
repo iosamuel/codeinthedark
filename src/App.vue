@@ -103,11 +103,39 @@
   <section class="content when">
     <h3>Cuando</h3>
     <p>
-      Empezaremos con la fase Eliminatoria el
-      <span class="date">13/06/2020</span>
+      Empezaremos con la fase Eliminatoria los siguientes días:
     </p>
+
+    <br />
+
     <p>
-      Puedes estar pendiente en los canales de transmision:
+      <span class="date">
+        <i class="fas fa-calendar-alt"></i> Sábado 13/06/2020
+      </span>
+      <br />
+      <span class="date">
+        <i class="fas fa-clock"></i> 3pm COT - UTC/GMT-5
+      </span>
+    </p>
+
+    <br />
+    <hr />
+    <br />
+
+    <p>
+      <span class="date">
+        <i class="fas fa-calendar-alt"></i> Domingo 14/06/2020
+      </span>
+      <br />
+      <span class="date">
+        <i class="fas fa-clock"></i> 3pm COT - UTC/GMT-5
+      </span>
+    </p>
+
+    <br />
+
+    <p>
+      Puedes estar pendiente en los canales de transmision.
     </p>
 
     <ul class="icons">
