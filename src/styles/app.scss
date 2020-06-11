@@ -20,21 +20,19 @@
   font-weight: bold;
 }
 
-body {
-  @apply text-white overflow-auto;
+html {
+  @apply h-screen text-white;
   font-family: Ubuntu;
   font-size: 16px;
+}
 
-  &::before {
-    @apply w-full h-full bg-black bg-no-repeat bg-cover bg-center bg-fixed block fixed top-0 left-0;
-    content: "";
-    background-image: url("/images/wallpaper.jpg");
-    z-index: -10;
-  }
+body {
+  @apply h-full;
 }
 
 #app {
-  @apply p-4;
+  @apply bg-black h-full bg-no-repeat bg-cover bg-center p-4 overflow-auto;
+  background-image: url("/images/wallpaper.jpg");
 }
 
 section {
