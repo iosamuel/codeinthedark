@@ -50,8 +50,8 @@
     </p>
 
     <ul>
-      <li><img src="/images/platzi.jpg" alt="" /></li>
-      <li><img src="" alt="" /></li>
+      <li><img src="/images/vic-pengu.png" alt="Victory" /></li>
+      <li><img src="/images/platzi.jpg" alt="Platzi" /></li>
     </ul>
   </section>
 
