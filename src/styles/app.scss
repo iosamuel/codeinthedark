@@ -21,7 +21,8 @@
 }
 
 html {
-  @apply h-screen text-white;
+  @apply text-white bg-black bg-no-repeat bg-cover bg-center bg-fixed overflow-auto;
+  background-image: url("/images/wallpaper.jpg");
   font-family: Ubuntu;
   font-size: 16px;
 }
@@ -31,8 +32,7 @@ body {
 }
 
 #app {
-  @apply bg-black h-full bg-no-repeat bg-cover bg-center p-4 overflow-auto;
-  background-image: url("/images/wallpaper.jpg");
+  @apply p-4;
 }
 
 section {
