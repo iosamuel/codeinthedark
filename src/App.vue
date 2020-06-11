@@ -142,7 +142,7 @@ export default {
         { name: "Jorge Betancur ", img: "", twitter: "" },
         { name: "Efrén Martinez rodriguez", img: "", twitter: "" }
       ],
-      open: false
+      open: true
     };
   }
 };
