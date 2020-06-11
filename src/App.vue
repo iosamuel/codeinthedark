@@ -100,6 +100,47 @@
     </p>
   </section>
 
+  <section class="content when">
+    <h3>Cuando</h3>
+    <p>
+      Empezaremos con la fase Eliminatoria el
+      <span class="date">13/06/2020</span>
+    </p>
+    <p>
+      Puedes estar pendiente en los canales de transmision:
+    </p>
+
+    <ul class="icons">
+      <li>
+        <a
+          href="https://www.twitter.com/iosamuel"
+          target="_blank"
+          rel="noreferer noopener"
+        >
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.youtube.com/channel/UCTvtM8ZisSrp9rii77D85Zw"
+          target="_blank"
+          rel="noreferer noopener"
+        >
+          <i class="fab fa-youtube"></i>
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.twitch.tv/iosamuel"
+          target="_blank"
+          rel="noreferer noopener"
+        >
+          <i class="fab fa-twitch"></i>
+        </a>
+      </li>
+    </ul>
+  </section>
+
   <div class="iosamuel">
     <a href="https://iosamuel.dev/">
       <img src="/images/iosamuel-logo.png" alt="IOSamuel" />
@@ -113,36 +154,40 @@ export default {
   data() {
     return {
       players: [
-        { name: "Yaroslay Bravo ", img: "", twitter: "" },
-        { name: "Andres Felipe Pinchao Ramirez", img: "", twitter: "" },
-        { name: "Laura Guzmán", img: "", twitter: "" },
-        { name: "Joan Manuel Serna Leiton", img: "", twitter: "" },
-        { name: "Luis Fernando Delgado Arboleda", img: "", twitter: "" },
-        { name: "Camilo Andrés Gil Ballen", img: "", twitter: "" },
-        { name: "Kathlen Montalvo Mendoza", img: "", twitter: "" },
-        { name: "Fiorella Effio Saldivar", img: "", twitter: "" },
-        { name: "Lenin Campoverde", img: "", twitter: "" },
-        { name: "Jesús cruz dominguez", img: "", twitter: "" },
-        { name: "Jorge Ivan Morales Obando", img: "", twitter: "" },
-        { name: "Carlos Viteri", img: "", twitter: "" },
-        { name: "Santiago Munguía López", img: "", twitter: "" },
-        { name: "Diego Ignacio Ruiz Poblete", img: "", twitter: "" },
-        { name: "María Fernanda Hernández Vargas ", img: "", twitter: "" },
-        { name: "William Eduardo Velazquez Amarra ", img: "", twitter: "" },
-        { name: "Alfredo Martínez", img: "", twitter: "" },
-        { name: "Andrés Corral", img: "", twitter: "" },
-        { name: "Jhon Michael García ", img: "", twitter: "" },
-        { name: "Pablo", img: "", twitter: "" },
-        { name: "Juan José López lira ", img: "", twitter: "" },
-        { name: "José Barrios ", img: "", twitter: "" },
-        { name: "Ernesto Román ", img: "", twitter: "" },
-        { name: "Nicolas Molina", img: "", twitter: "" },
-        { name: "Yan Arlex Vallejo Rosas", img: "", twitter: "" },
-        { name: "Horacio Herrera García", img: "", twitter: "" },
-        { name: "Jorge Betancur ", img: "", twitter: "" },
-        { name: "Efrén Martinez rodriguez", img: "", twitter: "" }
+        { name: "Yaroslay Bravo ", lost: false },
+        { name: "Andres Felipe Pinchao Ramirez", lost: false },
+        { name: "Laura Guzmán", lost: false },
+        { name: "Joan Manuel Serna Leiton", lost: false },
+        { name: "Luis Fernando Delgado Arboleda", lost: false },
+        { name: "Camilo Andrés Gil Ballen", lost: false },
+        { name: "Kathlen Montalvo Mendoza", lost: false },
+        { name: "Fiorella Effio Saldivar", lost: false },
+        { name: "Lenin Campoverde", lost: false },
+        { name: "Jesús cruz dominguez", lost: false },
+        { name: "Jorge Ivan Morales Obando", lost: false },
+        { name: "Carlos Viteri", lost: false },
+        { name: "Santiago Munguía López", lost: false },
+        { name: "Diego Ignacio Ruiz Poblete", lost: false },
+        { name: "María Fernanda Hernández Vargas ", lost: false },
+        { name: "William Eduardo Velazquez Amarra ", lost: false },
+        { name: "Alfredo Martínez", lost: false },
+        { name: "Andrés Corral", lost: false },
+        { name: "Jhon Michael García ", lost: false },
+        { name: "Pablo", lost: false },
+        { name: "Juan José López lira ", lost: false },
+        { name: "José Barrios ", lost: false },
+        { name: "Ernesto Román ", lost: false },
+        { name: "Nicolas Molina", lost: false },
+        { name: "Yan Arlex Vallejo Rosas", lost: false },
+        { name: "Horacio Herrera García", lost: false },
+        { name: "Jorge Betancur ", lost: false },
+        { name: "Efrén Martinez rodriguez", lost: false },
+        { name: "Jerson Alexander Morocho Basante", lost: false },
+        { name: "Juan Martinez", lost: false },
+        { name: "Rubén salgado", lost: false },
+        { name: "Roberto Barbosa", lost: false }
       ],
-      open: true
+      open: false
     };
   }
 };
