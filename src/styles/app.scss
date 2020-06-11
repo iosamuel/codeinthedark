@@ -20,9 +20,12 @@
   font-weight: bold;
 }
 
-body {
-  @apply h-screen text-white bg-black bg-no-repeat bg-cover bg-center bg-fixed overflow-auto;
+html {
+  @apply text-white bg-black bg-no-repeat bg-cover bg-center bg-fixed overflow-auto;
   background-image: url("/images/wallpaper.jpg");
+}
+
+body {
   font-family: Ubuntu;
   font-size: 16px;
 }
