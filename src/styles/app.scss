@@ -97,6 +97,32 @@ section {
     }
   }
 
+  .hosts {
+    @apply grid gap-8;
+
+    &__host {
+      @apply border-white border-b-4 p-8;
+
+      h4 {
+        @apply text-2xl mt-4;
+      }
+
+      &:first-child {
+        @apply bg-gray-600;
+      }
+      &:last-child {
+        @apply bg-gray-500;
+      }
+    }
+    img {
+      @apply w-64 rounded-full mx-auto;
+    }
+
+    @media screen and (min-width: 768px) {
+      @apply grid-flow-col;
+    }
+  }
+
   .players {
     @apply flex flex-row flex-wrap items-center justify-around;
     span {
@@ -130,14 +156,14 @@ section {
     .date {
       font-weight: bold;
     }
-    .icons {
-      @apply flex items-center justify-around;
-      li {
-        @apply inline-block;
+  }
+  .icons {
+    @apply flex items-center justify-around;
+    li {
+      @apply inline-block;
 
-        a {
-          @apply text-4xl;
-        }
+      a {
+        @apply text-4xl;
       }
     }
   }

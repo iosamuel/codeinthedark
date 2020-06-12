@@ -17,6 +17,81 @@
   </section>
 
   <section class="content">
+    <h3>Organiza</h3>
+    <div class="hosts">
+      <div class="hosts__host">
+        <img src="/images/pp.jpg" alt="IOSamuel" />
+        <h4>Samuel Burbano</h4>
+        <span>Host</span>
+        <ul class="icons">
+          <li>
+            <a
+              href="https://www.twitter.com/iosamuel"
+              target="_blank"
+              rel="noreferer noopener"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/channel/UCTvtM8ZisSrp9rii77D85Zw"
+              target="_blank"
+              rel="noreferer noopener"
+            >
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.twitch.tv/iosamuel"
+              target="_blank"
+              rel="noreferer noopener"
+            >
+              <i class="fab fa-twitch"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="hosts__host">
+        <img src="/images/leonidas.jpg" alt="LeonidasEsteban" />
+        <h4>Leonidas Esteban</h4>
+        <span>Co-Host</span>
+        <ul class="icons">
+          <li>
+            <a
+              href="https://twitter.com/LeonidasEsteban"
+              target="_blank"
+              rel="noreferer noopener"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/leonidasesteban"
+              target="_blank"
+              rel="noreferer noopener"
+            >
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.twitch.tv/leonidasesteban"
+              target="_blank"
+              rel="noreferer noopener"
+            >
+              <i class="fab fa-twitch"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="content">
     <img class="content__image" src="/images/iosamuel.png" alt="IOSamuel" />
     <h3>Rules</h3>
     <p>
@@ -190,10 +265,9 @@ export default {
         { name: "Camilo Andrés Gil Ballen", lost: false },
         { name: "Kathlen Montalvo Mendoza", lost: false },
         { name: "Fiorella Effio Saldivar", lost: false },
-        { name: "Erifranck nuñez", lost: false },
         { name: "Jesús cruz dominguez", lost: false },
         { name: "Jorge Ivan Morales Obando", lost: false },
-        { name: "Carlos Viteri", lost: false },
+        { name: "Alejandro Javier Villagran Poblete", lost: false },
         { name: "Santiago Munguía López", lost: false },
         { name: "Diego Ignacio Ruiz Poblete", lost: false },
         { name: "María Fernanda Hernández Vargas ", lost: false },
@@ -213,7 +287,8 @@ export default {
         { name: "Jerson Alexander Morocho Basante", lost: false },
         { name: "Juan Martinez", lost: false },
         { name: "Rubén salgado", lost: false },
-        { name: "Roberto Barbosa", lost: false }
+        { name: "Roberto Barbosa", lost: false },
+        { name: "Erifranck nuñez", lost: false }
       ],
       open: false
     };
