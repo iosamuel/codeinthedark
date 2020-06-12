@@ -101,7 +101,7 @@ section {
     @apply grid gap-8;
 
     &__host {
-      @apply border-white border-b-4 p-8;
+      @apply border-white border-b-4 p-8 bg-gray-500;
 
       h4 {
         @apply text-2xl mt-4;
@@ -109,9 +109,6 @@ section {
 
       &:first-child {
         @apply bg-gray-600;
-      }
-      &:last-child {
-        @apply bg-gray-500;
       }
     }
     img {

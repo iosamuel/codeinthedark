@@ -88,6 +88,41 @@
           </li>
         </ul>
       </div>
+
+      <div class="hosts__host">
+        <img src="/images/gndx.jpg" alt="LeonidasEsteban" />
+        <h4>Oscar Barajas</h4>
+        <span>Co-Host</span>
+        <ul class="icons">
+          <li>
+            <a
+              href="https://twitter.com/gndx"
+              target="_blank"
+              rel="noreferer noopener"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/channel/UCw05fUBPwmpu-ehXFMqfdMw"
+              target="_blank"
+              rel="noreferer noopener"
+            >
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.twitch.tv/gndxdev"
+              target="_blank"
+              rel="noreferer noopener"
+            >
+              <i class="fab fa-twitch"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </section>
 
