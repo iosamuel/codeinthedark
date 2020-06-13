@@ -56,8 +56,7 @@
 
       <div class="hosts__host">
         <img src="/images/nani.jpg" alt="Daniela Quiroga" />
-        <h4>Daniela Quiroga</h4>
-        <!-- Futura esposa de @IOSamuel -->
+        <h4 data-egg="Futura esposa de @IOSamuel">Daniela Quiroga</h4>
         <span>Co-Host</span>
         <ul class="icons">
           <li>
