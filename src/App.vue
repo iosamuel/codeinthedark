@@ -156,7 +156,8 @@
     <h3>Rewards</h3>
     <p>
       El ganador de la competencia se llevara una Camiseta con la copa de Code
-      in the Dark (by IOSamuel) y una subscripcion a Platzi por 3 meses.
+      in the Dark (by IOSamuel), una subscripcion a Platzi por 3 meses y un pack
+      de 10 stickers.
     </p>
 
     <ul>
@@ -297,12 +298,12 @@ export default {
         { name: "Laura Guzmán", lost: false },
         { name: "Joan Manuel Serna Leiton", lost: false },
         { name: "Luis Fernando Delgado Arboleda", lost: false },
-        { name: "Camilo Andrés Gil Ballen", lost: false },
+        { name: "Diego Torres", lost: false },
         { name: "Kathlen Montalvo Mendoza", lost: false },
         { name: "Fiorella Effio Saldivar", lost: false },
         { name: "Jesús cruz dominguez", lost: false },
         { name: "Jorge Ivan Morales Obando", lost: false },
-        { name: "Alejandro Javier Villagran Poblete", lost: false },
+        { name: "Alejandro Villagran", lost: false },
         { name: "Santiago Munguía López", lost: false },
         { name: "Diego Ignacio Ruiz Poblete", lost: false },
         { name: "María Fernanda Hernández Vargas ", lost: false },
