@@ -55,6 +55,42 @@
       </div>
 
       <div class="hosts__host">
+        <img src="/images/nani.jpg" alt="Daniela Quiroga" />
+        <h4>Daniela Quiroga</h4>
+        <!-- Futura esposa de @IOSamuel -->
+        <span>Co-Host</span>
+        <ul class="icons">
+          <li>
+            <a
+              href="https://twitter.com/nani_kika"
+              target="_blank"
+              rel="noreferer noopener"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/nanikika"
+              target="_blank"
+              rel="noreferer noopener"
+            >
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.twitch.tv/nani_kika"
+              target="_blank"
+              rel="noreferer noopener"
+            >
+              <i class="fab fa-twitch"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="hosts__host">
         <img src="/images/leonidas.jpg" alt="LeonidasEsteban" />
         <h4>Leonidas Esteban</h4>
         <span>Co-Host</span>
@@ -90,7 +126,7 @@
       </div>
 
       <div class="hosts__host">
-        <img src="/images/gndx.jpg" alt="LeonidasEsteban" />
+        <img src="/images/gndx.jpg" alt="Oscar Barajas" />
         <h4>Oscar Barajas</h4>
         <span>Co-Host</span>
         <ul class="icons">
@@ -105,7 +141,7 @@
           </li>
           <li>
             <a
-              href="https://www.youtube.com/channel/UCw05fUBPwmpu-ehXFMqfdMw"
+              href="https://www.youtube.com/c/oscarbarajas"
               target="_blank"
               rel="noreferer noopener"
             >
@@ -131,8 +167,8 @@
     <h3>Rules</h3>
     <p>
       Sera una competencia single-elimination, lo que quiere decir que ganas o
-      pierdes en cada ronda, las Finales seran entre los 3 ultimos
-      participantes.
+      pierdes en cada ronda. Cada ronda seran grupos de 4 programadores y solo 1
+      avanza.
     </p>
 
     <ul>
@@ -140,7 +176,7 @@
       <li>15 min</li>
       <li>HTML/CSS</li>
       <li>No previews</li>
-      <li>One champion</li>
+      <li>Single-elimination</li>
     </ul>
 
     <ul>
@@ -148,7 +184,7 @@
       <li>30 min</li>
       <li>HTML/CSS</li>
       <li>No previews</li>
-      <li>One champion</li>
+      <li>1 Campeon</li>
     </ul>
   </section>
 
