@@ -208,11 +208,16 @@
       que avance la competencia.
     </p>
 
+    <div class="palet">
+      <p><span class="color--won">Gano</span></p>
+      <p><span class="color--lost">Perdio</span></p>
+      <p><span class="color--playing">Participando</span></p>
+    </div>
     <div class="players">
       <span
         v-for="player in players"
         :key="player.name"
-        :class="{ lost: player.lost }"
+        :class="{ won: player.won, playing: player.playing }"
       >
         {{
           player.name
@@ -328,38 +333,26 @@ export default {
   data() {
     return {
       players: [
-        { name: "Yaroslay Bravo ", lost: false },
-        { name: "Andres Felipe Pinchao Ramirez", lost: false },
-        { name: "Laura Guzmán", lost: false },
-        { name: "Joan Manuel Serna Leiton", lost: false },
-        { name: "Luis Fernando Delgado Arboleda", lost: false },
-        { name: "Diego Torres", lost: false },
-        { name: "Kathlen Montalvo Mendoza", lost: false },
-        { name: "Fiorella Effio Saldivar", lost: false },
-        { name: "Jesús cruz dominguez", lost: false },
-        { name: "Jorge Ivan Morales Obando", lost: false },
-        { name: "Alejandro Villagran", lost: false },
-        { name: "Santiago Munguía López", lost: false },
-        { name: "Diego Ignacio Ruiz Poblete", lost: false },
-        { name: "María Fernanda Hernández Vargas ", lost: false },
-        { name: "William Eduardo Velazquez Amarra ", lost: false },
-        { name: "Alfredo Martínez", lost: false },
-        { name: "Andrés Corral", lost: false },
-        { name: "Jhon Michael García ", lost: false },
-        { name: "Pablo", lost: false },
-        { name: "Juan José López lira ", lost: false },
-        { name: "José Barrios ", lost: false },
-        { name: "Ernesto Román ", lost: false },
-        { name: "Nicolas Molina", lost: false },
-        { name: "Yan Arlex Vallejo Rosas", lost: false },
-        { name: "Horacio Herrera García", lost: false },
-        { name: "Jorge Betancur ", lost: false },
-        { name: "Efrén Martinez rodriguez", lost: false },
-        { name: "Jerson Alexander Morocho Basante", lost: false },
-        { name: "Juan Martinez", lost: false },
-        { name: "Rubén salgado", lost: false },
-        { name: "Roberto Barbosa", lost: false },
-        { name: "Erifranck nuñez", lost: false }
+        { name: "Yan Arlex Vallejo" },
+        { name: "Juan Martinez" },
+        { name: "Jhon Garcia", won: true },
+        { name: "Joan Serna" },
+        { name: "William Velazquez" },
+        { name: "Alejandro Villagran" },
+        { name: "Nicolas Arias" },
+        { name: "Horacio Herrera", won: true },
+        { name: "Erifranck Nuñez" },
+        { name: "Efrén Martinez", won: true },
+        { name: "Juan López" },
+        { name: "José Barrios" },
+        { name: "Jorge Ivan" },
+        { name: "Diego Torres" },
+        { name: "Kath Montalvo" },
+        { name: "Fiorella Effio", won: true },
+        { name: "Jerson Alexander", playing: true },
+        { name: "Andrés Felipe", playing: true },
+        { name: "Sergio Estrella", playing: true },
+        { name: "Diego Aguilera", playing: true }
       ],
       open: false
     };
